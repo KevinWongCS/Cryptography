@@ -29,10 +29,15 @@ desc: Notes on a cryptography video from FireShip
 ## HMAC
 * ```password``` => ```password(or token)``` => ```hashing function``` => ```fixed length value```
 
-## Symmetric Encrption
+## Symmetric Encryption
 * ```message``` => ```cipher``` => ```cipher text```
 * only person with a ```shared key``` can decrypt the cipher text
 * the cipher can be randomized so that two same messages can have different cipher text
    * Symmetric
       * both sender and reciever will need the same password
-      *
+      * but it isn't common for sender and reciever to agree upon a shared password
+   * Keypairs
+      * Public key and a private key
+      * Like a mail box, anyone with a public key can deposit mail, but only the person with the private key can take the mail out
+   * Asymmetric Encryption
+      * public key + message to 
