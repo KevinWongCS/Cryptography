@@ -31,8 +31,8 @@ desc: Notes on a cryptography video from FireShip
 
 ## Symmetric Encryption
 * ```message``` => ```cipher``` => ```cipher text```
-* only person with a ```shared key``` can decrypt the cipher text
-* the cipher can be randomized so that two same messages can have different cipher text
+* Only people with a ```shared key``` can decrypt the cipher text
+* The cipher can be randomized so that two same messages can have different cipher text
    * Symmetric
       * both sender and reciever will need the same password
       * but it isn't common for sender and reciever to agree upon a shared password
@@ -43,7 +43,6 @@ desc: Notes on a cryptography video from FireShip
       * ![diagram](pubPrivateKey.PNG)
       * for example a https(hyper text transfer protocol) A website will send your encrypted information along with a public key to a server. The remote server will then decrypt the information using a private key.
 
-## Signing
-* digital signatures
-* using private key to sign a hash
-* public key can then decrypt the hash using their public key to ensure/verify it came from the correct private key
+## Signing/Digital Signatures
+* The owner will sign a hash using their private key
+* The receipient their public key to decrypt and ensure/verify it came from the correct private key
