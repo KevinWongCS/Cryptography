@@ -40,7 +40,7 @@ desc: Notes on a cryptography video from FireShip
       * Public key and a private key
       * Like a mail box, anyone with a public key can deposit mail, but only the person with the private key can take the mail out
    * Asymmetric Encryption
-      * ![diagram](pubPrivateKey.png)
+      * ![diagram](pubPrivateKey.PNG)
       * for example a https(hyper text transfer protocol) A website will send your encrypted information along with a public key to a server. The remote server will then decrypt the information using a private key.
 
 ## Signing
